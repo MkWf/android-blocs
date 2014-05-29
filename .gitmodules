@@ -1,0 +1,4 @@
+[submodule "blocs/libs/AndEngine"]
+	path = blocs/libs/AndEngine
+	url = https://github.com/nicolasgramlich/AndEngine/
+	branch = GLES2-AnchorCenter
