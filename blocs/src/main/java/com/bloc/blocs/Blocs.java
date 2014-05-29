@@ -5,11 +5,26 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class Blocs extends Activity {
+import org.andengine.*;
+import org.andengine.engine.options.EngineOptions;
+import org.andengine.entity.scene.Scene;
+import org.andengine.ui.activity.SimpleBaseGameActivity;
+
+
+public class Blocs extends SimpleBaseGameActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_blocs);
+    protected void onCreateResources() {
+        
+    }
+
+    @Override
+    protected Scene onCreateScene() {
+        return null;
+    }
+
+    @Override
+    public EngineOptions onCreateEngineOptions() {
+        return null;
     }
 }
