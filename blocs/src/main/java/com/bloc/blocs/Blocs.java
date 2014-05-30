@@ -15,7 +15,7 @@ public class Blocs extends SimpleBaseGameActivity {
 
     @Override
     protected void onCreateResources() {
-        
+
     }
 
     @Override
